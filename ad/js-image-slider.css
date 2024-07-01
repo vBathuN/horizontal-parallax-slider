@@ -11,7 +11,7 @@
 
 #slider, #slider .sliderInner {
     width:700px;height:570px;/* Must be the same size as the slider images */
-    border-radius:3px;
+    border-radius:0px;
 }
 
 #slider {
@@ -19,7 +19,7 @@
     position:relative;
     margin:0 auto; /*center-aligned*/
     transform: translate3d(0,0,0);
-    box-shadow: 0px 1px 5px #999999;
+    box-shadow: 0px 0px 0px #999999;
 }
 
 /* the link style (if an image is wrapped by a link) */
@@ -39,7 +39,7 @@
     position:absolute;
     width:100%;
     height:auto;
-    padding:10px 0;/* 10px will increase the height.*/
+    padding:0px 0;/* 10px will increase the height.*/
     left:0px;
     bottom:0px;top:auto;
     overflow:hidden;
@@ -69,12 +69,12 @@
 /* each bullet */
 #slider .navBulletsWrapper div 
 {
-    width:11px; height:11px;
+    width:0px; height:0px;
     font-size:0;color:White;/*hide the index number in the bullet element*/
     background:transparent url(bullet.png) no-repeat 0 0;
     display:inline-block; *display:inline; zoom:1;
     overflow:hidden;cursor:pointer;
-    margin:0 6px;/* set distance between each bullet*/
+    margin:0 0px;/* set distance between each bullet*/
 }
 
 #slider .navBulletsWrapper .active {background-position:0 -11px;}
