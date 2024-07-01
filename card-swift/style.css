@@ -96,6 +96,6 @@ body article {
 
 @media (max-width: 750px) {
   .swiper .parallax-bg {
-    width: 220%;
+    width: 320%;
   }
 }
